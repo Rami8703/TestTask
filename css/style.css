@@ -1,0 +1,192 @@
+.main-wrapper {
+  font-family: Roboto, Ubuntu, Cantarell, Helvetica, sans-serif;
+}
+
+title {
+  color: red;
+  background-color: 128;
+}
+
+header {
+  background: url(../img/header_background_v1.jpg);
+  height: 1000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  position: inline-block;
+}
+
+.logo img {
+  float: left;
+  width: 200px;
+  height: auto;
+}
+
+section.section-first h1 {
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+section.section-first a {
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  margin-top: 50px;
+  background-color: #40E0D0;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+main {
+  padding-top: 1000px;
+  margin: 0 auto;
+  width: 960px;
+}
+
+section.post-list h1 {
+  text-align: right;
+}
+
+nav {
+  float: right;
+  float: up;
+  margin-left: 10px;
+  font-size: 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 15px 16px;
+  height: 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 80px;
+  border-right-style: solid;
+  border-right-color: grey;
+}
+
+.toolbar input {
+  width: 150px;
+  height: 30px;
+  float: right;
+  margin-top: 20px;
+}
+
+section.post-list {
+  display: inline-block;
+}
+
+article {
+  width: 100%;
+  background-color: #efefef;
+  margin-top: 10px;
+  display: inline-block;
+}
+article h3 {
+  color: #00aeae;
+  text-transform: uppercase;
+}
+article .post-description {
+  font-size: 15px;
+  margin-top: 20px;
+  color: red;
+  border-bottom: solid;
+  border-color: #738c98;
+  border-width: 1.5px;
+  padding-bottom: 10px;
+  margin-left: 60px;
+}
+article p {
+  font-size: 14px;
+}
+article img {
+  width: 30%;
+  float: left;
+  margin: 10px;
+}
+article .post {
+  width: 70%;
+  margin-left: 250px;
+}
+
+button.btn {
+  float: right;
+  background-color: #00aeae;
+  margin-right: 20px;
+  width: 170px;
+  height: 30px;
+  font-size: 16px;
+  border: none;
+  color: white;
+  text-decoration: none;
+}
+
+section.about h1 {
+  text-align: right;
+}
+section.about img {
+  width: 950px;
+}
+
+section.contact-form {
+  text-align: right;
+}
+
+.contact-input {
+  height: 300px;
+  width: 100%;
+}
+.contact-input .contact-name {
+  float: left;
+  width: 50%;
+}
+.contact-input .contact-name p {
+  text-align: right;
+  color: #00aeae;
+}
+.contact-input .contact-name input {
+  width: 450px;
+  height: 40px;
+}
+.contact-input .contact-email {
+  float: right;
+  width: 50%;
+}
+.contact-input .contact-email p {
+  text-align: right;
+  color: #00aeae;
+}
+.contact-input .contact-email input {
+  width: 450px;
+  height: 40px;
+}
+.contact-input .contact-disc p {
+  text-align: right;
+  color: #00aeae;
+}
+.contact-input .contact-disc input {
+  width: 930px;
+  height: 100px;
+}
+.contact-input button {
+  float: right;
+  width: 180px;
+  height: 40px;
+  margin: 0px;
+}

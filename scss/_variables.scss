@@ -1,0 +1,70 @@
+$primary-color:#00aeae;
+$mainback-color:#efefef;
+
+
+
+
+@mixin center
+{
+color: white;
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+
+}
+@mixin button{
+background-color: #40E0D0;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  cursor: pointer;}
+@mixin backgraounImg{
+  background: url(../img/header_background_v1.jpg);
+  height: 1000px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  position:inline-block;
+
+}
+
+@mixin font{
+  font-family: Roboto, Ubuntu, Cantarell, Helvetica ,sans-serif;
+}
+@mixin main{
+  padding-top: 1000px;
+  margin: 0 auto;
+  width: 960px;
+}
+
+
+@mixin nav{
+  float: right;
+  float: up;
+  margin-left: 10px;
+  font-size: 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 15px 16px;
+  height: 20px;
+}
+@mixin postdesc{
+  font-size: 15px;
+  margin-top: 20px;
+  color: red;
+  border-bottom:  solid;
+  border-color: #738c98;
+  border-width: 1.5px;
+  padding-bottom: 10px;
+  margin-left: 60px;
+}

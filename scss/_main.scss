@@ -1,0 +1,138 @@
+// Write your styles here
+.main-wrapper{
+@include font;
+}
+
+title{
+color:red;
+background-color: green(green);
+}
+header{
+@include backgraounImg;
+
+}
+.logo {
+  img {
+    float: left;
+    width: 200px;
+    height:auto;
+}}
+section.section-first {
+  h1 {
+  @include center;
+}
+a{
+  @include center;
+  margin-top: 50px;
+  @include button;
+
+}}
+
+main {
+    @include main;
+}
+
+section.post-list{
+  h1{text-align: right;}
+
+}
+nav{
+@include nav;
+  a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 80px;
+    border-right-style: solid;
+    border-right-color: grey;
+}}
+.toolbar input{
+  width: 150px;
+  height:30px;
+  float: right;
+  margin-top: 20px
+}
+section.post-list{
+  display: inline-block;
+}
+article{
+
+
+  h3{
+    color: $primary-color;
+    text-transform: uppercase;
+
+}
+.post-description{
+@include postdesc;
+}
+p{
+  font-size:14px;
+}
+img{
+  width: 30%;
+  float: left;
+  margin: 10px;
+}
+  .post{
+    width: 70%;
+  margin-left: 250px;
+}
+  width: 100%;
+  background-color: $mainback-color;
+  margin-top: 10px;
+  display: inline-block;
+}
+button.btn{
+float: right;
+background-color: $primary-color;
+margin-right: 20px;
+width: 170px;
+height: 30px;
+font-size: 16px;
+border: none;
+color: white;
+  text-decoration: none;
+}
+
+section.about {
+h1{
+  text-align: right;
+}
+img{
+  width: 950px;
+}}
+section.contact-form{
+  text-align: right;
+}
+
+.contact-input{
+  height: 300px;
+  width: 100%;
+  .contact-name{
+    float: left;
+    width: 50%;
+    p{  text-align: right;
+      color: $primary-color;}
+  input {
+    width: 450px;
+    height: 40px;
+  }}
+.contact-email{
+    float: right;
+    width: 50%;
+    p{
+      text-align: right;
+      color: $primary-color;}
+    input {
+      width: 450px;
+      height: 40px;  }}
+  .contact-disc{p{text-align: right;color: $primary-color}
+input{
+  width: 930px;
+  height: 100px;}}
+button{
+  float: right;
+  width: 180px;
+  height: 40px;
+  margin: 0px;
+}}
